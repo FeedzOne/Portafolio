@@ -14,3 +14,42 @@
     text-align: center;
     color: #FFFFFF
 }
+
+#footer_links{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#footer_links a{
+    display: inline-block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-justify: distribute-all-lines;
+    padding-bottom: 2vh;
+}
+
+#footer_links a:hover{
+    color: rgb(0, 213, 255);
+}
+
+p.text-footer{
+    color: #FFFFFF;
+    font-size: 1.7rem;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: 'Roboto', sans-serif;
+}

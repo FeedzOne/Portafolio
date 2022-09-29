@@ -12,9 +12,17 @@
     text-decoration: none;
     font-size: 1.7rem;
     text-justify: distribute-all-lines;
+    padding-bottom: 2vh;
  }
 
- input {
+ input[type=text] {
+    border: none;
+    height: 5vh;
+    width: 50vw;
+    border-bottom: 2px solid rgb(0, 213, 255);
+  }
+
+  input[type=email] {
     border: none;
     height: 5vh;
     width: 50vw;
