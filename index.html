@@ -12,11 +12,15 @@
     <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="/css/contact_us.css">
     <link rel="stylesheet" href="/css/hobbies.css">
+    <link rel="stylesheet" href="/css/projects.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
     <title>My Portfolio</title>
 </head>
 
@@ -53,32 +57,73 @@
             <a href="#" class="fa fa-envelope"></a>
         </div>
     </section>
+    <section id="projects" class="container-fluid">
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://cdn.pixabay.com/photo/2017/03/23/09/34/artificial-intelligence-2167835_960_720.jpg"
+                        alt="IA" class="d-block" style="width:100%">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg" alt="programming"
+                        class="d-block" style="width:100%">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://cdn.pixabay.com/photo/2017/01/22/12/07/imac-1999636_960_720.png" alt="Design"
+                        class="d-block" style="width:100%">
+                </div>
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+    </section>
     <section id="hobbies" class="container-fluid">
         <div id="content_cards">
             <div class="card">
-            <div class="card-header">
-                <img class="img_card" src="https://cdn.pixabay.com/photo/2017/05/10/19/42/guitar-2301723_960_720.jpg">
+                <div class="card-header">
+                    <img class="img_card"
+                        src="https://cdn.pixabay.com/photo/2017/05/10/19/42/guitar-2301723_960_720.jpg">
+                </div>
+                <div class="card-body">
+                    <p class="p_card">I used to play guitar and bass since i was around 12 years old</p>
+                </div>
+                <div class="card-footer">
+                    <p class="p_card">Play Guitar and Bass</p>
+                </div>
             </div>
-            <div class="card-body">
-                <p class="p_card">I used to play guitar and bass since i was around 12 years old</p>
-            </div>
-            <div class="card-footer">
-                <p class="p_card">Play Guitar and Bass</p>
+            <div class="card">
+                <div class="card-header">
+                    <img class="img_card"
+                        src="https://cdn.pixabay.com/photo/2016/11/24/20/48/programming-1857236_960_720.jpg">
+                </div>
+                <div class="card-body">
+                    <p class="p_card">Started to code whan i joined to the university, started with pseint, then C, C++,
+                        Java, C# with ASP.NET, then in took a course of OOP with Java, then i learned some JavaScript,
+                        Python and some other stuff</p>
+                </div>
+                <div class="card-footer">
+                    <p class="p_card">Coding</p>
+                </div>
             </div>
         </div>
-        <div class="card">
-            <div class="card-header">
-                <img class="img_card" src="https://cdn.pixabay.com/photo/2016/11/24/20/48/programming-1857236_960_720.jpg">
-            </div>
-            <div class="card-body">
-                <p class="p_card">Started to code whan i joined to the university, started with pseint, then C, C++, Java, C# with AASP.NET, then in took a course of OOP with Java, then i learned some JavaScript, Python and some other stuff</p>
-            </div>
-            <div class="card-footer">
-                <p class="p_card">Coding</p>
-            </div>
-        </div>
-    </div>
-        
+
     </section>
 
     <section id="contact_us" class="container">
