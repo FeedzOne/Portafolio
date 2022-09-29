@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
     <link rel="stylesheeg" href="/css/reset.css">
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/about.css">
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="/css/contact_us.css">
+    <link rel="stylesheet" href="/css/hobbies.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +21,7 @@
 </head>
 
 <body>
-    <div class="topnav" id="myTopnav">
+    <div class="topnav container-fluid" id="myTopnav">
         <ul class="topnav">
             <li><a href="#">About me</a></li>
             <li><a href="#">Hobbies</a></li>
@@ -52,18 +53,43 @@
             <a href="#" class="fa fa-envelope"></a>
         </div>
     </section>
-    <section id="hobbiers" class="container-fluid">
-
+    <section id="hobbies" class="container-fluid">
+        <div id="content_cards">
+            <div class="card">
+            <div class="card-header">
+                <img class="img_card" src="https://cdn.pixabay.com/photo/2017/05/10/19/42/guitar-2301723_960_720.jpg">
+            </div>
+            <div class="card-body">
+                <p class="p_card">I used to play guitar and bass since i was around 12 years old</p>
+            </div>
+            <div class="card-footer">
+                <p class="p_card">Play Guitar and Bass</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <img class="img_card" src="https://cdn.pixabay.com/photo/2016/11/24/20/48/programming-1857236_960_720.jpg">
+            </div>
+            <div class="card-body">
+                <p class="p_card">Started to code whan i joined to the university, started with pseint, then C, C++, Java, C# with AASP.NET, then in took a course of OOP with Java, then i learned some JavaScript, Python and some other stuff</p>
+            </div>
+            <div class="card-footer">
+                <p class="p_card">Coding</p>
+            </div>
+        </div>
+    </div>
+        
     </section>
+
     <section id="contact_us" class="container">
         <form action="/action_page.php">
             <label for="fname">Name:</label><br>
             <input type="text" id="tbName" name="fname" value="John"><br>
             <label for="lname">Email:</label><br>
             <input type="email" id="tbeEmail" name="lname" value="Doe"><br>
-            <label for="lname">Message:</label><br>
-            <input type="text" id="tbMessage" name="lname" value="Doe"><br><br>
-            <button type="button" class="btn">Basic</button>
+            <label for="comment">Message:</label>
+            <textarea class="form-control" rows="5" id="message" name="text"></textarea>
+            <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </section>
 

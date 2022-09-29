@@ -32,3 +32,10 @@
   input:focus{
     border:none;
   }
+
+  textarea{
+    border: none;
+    height: 10vh;
+    width: 50vw;
+    border-bottom: 2px solid rgb(0, 213, 255);
+  }
