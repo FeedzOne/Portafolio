@@ -10,7 +10,7 @@
     bottom: 0;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     text-justify: distribute-all-lines;
  }
  .fa {
@@ -53,6 +53,11 @@
   .fa-envelope {
     background: #dd4b39;
     color: white;
+  }
+
+  #profile_img{
+    width: 25vh;
+    border-radius: 50%;
   }
 
   

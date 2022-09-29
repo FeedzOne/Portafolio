@@ -3,7 +3,7 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(0,213,255);
 }
 
 ul.topnav li {
@@ -12,14 +12,19 @@ ul.topnav li {
 
 ul.topnav li a {
     display: block;
-    color: white;
+    height: 3vh;
+    color: rgb(50, 50, 50);
     text-align: center;
     padding: 14px 16px;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
+    font-size: 1.2rem;
+    text-justify: distribute-all-lines;
 }
 
 ul.topnav li a:hover:not(.active) {
-    background-color: #111;
+    background-color: rgb(0, 170, 255);
+    color: rgb(0, 0, 0)
 }
 
 ul.topnav li a.active {

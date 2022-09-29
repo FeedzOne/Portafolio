@@ -1,10 +1,11 @@
 .footer {
-    position: fixed;
+    position: relative;
     left: 0;
-    bottom: 0;
+    bottom: 110%;
     width: 100%;
-    background-color: red;
+    background-color: rgb(0, 0, 0);
     color: white;
+    background: rgb(0, 0, 0);
     text-align: center;
 
 }
