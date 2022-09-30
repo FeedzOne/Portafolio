@@ -1,5 +1,5 @@
 #about_me {
-  width: 80vw;
+  width: 100vw;
   padding-top: 3%;
   position: relative;
   text-align: center;
@@ -13,6 +13,16 @@
   font-size: 1.7rem;
   text-justify: distribute-all-lines;
   color: #FFFFFF;
+  background-color: rgb(1, 27, 46);
+}
+
+.about_text{
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding-bottom: 5vh;
+  text-justify:distribute-all-lines;
 }
 
 .fa {
@@ -64,4 +74,12 @@
   width: 25vh;
   border-radius: 50%;
   margin-bottom: 5vh;
+}
+
+nav{
+  margin-top: 15px;
+}
+
+.about_text h2{
+  padding-top: 50px;
 }
