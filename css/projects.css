@@ -1,5 +1,6 @@
 #projects{
-    width:90vw;
+    width:1600px;
+    height: 900px;
     padding-top: 3%;
     position: relative;
     text-align: center;
@@ -12,3 +13,13 @@
     text-decoration: none;
     font-size: 1.7rem;
     text-justify: distribute-all-lines;
+}
+
+.carousel-item {
+    height: 900px;
+    width: 1600px;
+}
+
+.carousel-item:hover{
+    opacity: 75%;
+}
