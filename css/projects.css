@@ -1,5 +1,5 @@
 #projects{
-    width: 70vw;
+    width:90vw;
     padding-top: 3%;
     position: relative;
     text-align: center;
@@ -14,27 +14,51 @@
     text-justify: distribute-all-lines;
 }
 
-.carousel-item {
-    width: 1600px;
-    height: 900px;
+#content_cards{
+    display:inline-flex;
+    flex-direction:row;
 }
 
-.carousel-item:hover{
-    opacity: 75%;
+.card{
+    margin-left: 1vh;
+    margin-right: 1vh;
+    border: none;
+    width: 20vw;
+    align-content: center;
 }
 
-.-carousel-control-prev-icon{
-    background-color: #000;
+.img_card{
+    max-width: 35vh;
 }
 
-@media screen and (max-width: 600px) {
+.p_card{
+    width: 18w;
+    text-justify: distribute-all-lines;
+    font-size: 1.8rem;
+}
 
+@media screen and (max-width: 1100px) {
+    .card{
+        margin-left: 1vh;
+        margin-right: 1vh;
+        width: 33%;
+        align-content: center;
+    }
+    
+    .img_card{
+        max-width: 30%;
+    }
+    
+    .p_card{
+        width: 18%;
+        text-justify: distribute-all-lines;
+        font-size: 1.8rem;
+    }
+    
 }
 @media screen and (max-width: 530px) {
 
 }
-
 @media screen and (max-width: 375px) {
 
 }
-
