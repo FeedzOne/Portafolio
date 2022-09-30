@@ -4,14 +4,25 @@
     min-width: 100%;
     padding: 0px;
     overflow-x: hidden;
+    margin-left: 0;
+    margin-right: 0;
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .header__link{
+    width: 200px;
     display: inline-block;
 }
 
 ul.header__container {
     list-style-type: none;
+    width: 100vw;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -49,12 +60,40 @@ ul.header__container li.right {
 
 @media screen and (min-width: 1024px) {
     ul.navbar_header li a {
-        display: row;
+        display: flexbox;
+        flex-direction:column;
         justify-content: space-between;
         border: none;
+    }
+    ul.header__container li a {
+        width: 90%;
+    }
+
+    a{
+        width: 90%;
+    }
+    
+    li.header__link a{
+        width: 90%;
     }
 
     ul.navbar_header li {
         width: 100vh;
     }
+    li{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    li{
+        width: 290px;
+    }
+
+    ul.header__container li a{
+        font-size: 1.2rem;
+        height: 45px;
+        padding-top: 6px;
+    }
+    
 }

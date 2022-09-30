@@ -26,16 +26,19 @@
 </head>
 
 <body style="background-color: #4B5C77">
-    <div class="header container-fluid" id="myTopnav">
-        <ul class="header__container">
-            <li class="header__link"><a href="#">About me</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Previews</a></li>
-            <li><a href="#">Experience</a></li>
-            <li><a href="#">Contact me</a></li>
-            <li><a href="#">Resume</a></li>
-        </ul>
-    </div>
+    <section id="myTopnav">
+        <div class="header">
+            <ul class="header__container">
+                <li ><a id="header-container__item" href="#">About me</a></li>
+                <li ><a href="#">Skills</a></li>
+                <li ><a href="#">Previews</a></li>
+                <li ><a href="#">Experience</a></li>
+                <li ><a href="#">Contact me</a></li>
+                <li ><a href="#">Resume</a></li>
+            </ul>
+        </div>
+    </section>
+
     <section id="about_me" class="container-fluid">
         <div class="about_text">
             <img id="profile_img"
@@ -60,7 +63,7 @@
 
         </div>
     </section>
-    <section id="skills">
+    <section id="skills" class="container-fluid">
         <h2>Front end Developer - UI Designer</h2>
         <p>Here are some of my skills, but im constantly learning and updating my knowledge of the languajes i use the
             most</p>
@@ -176,13 +179,13 @@
             <!-- The slideshow/carousel -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="/img/1.png" alt="Los Angeles" class="d-block w-100">
+                    <img src="/img/1.png" alt="img1" class="d-block w-100">
                 </div>
                 <div class="carousel-item">
-                    <img src="/img/2.jpg" alt="Chicago" class="d-block w-100">
+                    <img src="/img/2.jpg" alt="img2" class="d-block w-100">
                 </div>
                 <div class="carousel-item">
-                    <img src="/img/3.jpg" alt="New York" class="d-block w-100">
+                    <img src="/img/3.jpg" alt="img3" class="d-block w-100">
                 </div>
             </div>
 
@@ -256,21 +259,25 @@
     </section>
 
 </body>
-<footer class="footer"><br>
-    <p class="text-footer">This portfolio was developed using HTML, JavaScript, CSS, Bootstrap, SqueetAlerts, and a MySQL Database</p>
-    <p class="text-footer">Created by: Erick Miguel Paredes Ortega - FeedzOne</p>
-    <p class="text-footer">Email: erick.paredes@uabc.edu.mx</p>
-    <div>
-        <h2>My social media</h2>
-        <div id="footer_links">
-            <a href="#">Linkedin</a>
-            <a href="#">YouTube</a>
-            <a href="#">GitHub</a>
-            <a href="#">Instagram</a>
-            <a href="#">Twitter</a>
-            <a href="#">Mail</a>
+<footer id="page-footer" class="footer container-fluid"><br>
+    <div id="page-footer__content">
+        <p class="text-footer">This portfolio was developed using HTML, JavaScript, CSS, Bootstrap, SqueetAlerts, and a
+            MySQL Database</p>
+        <p class="text-footer">Created by: Erick Miguel Paredes Ortega - FeedzOne</p>
+        <p class="text-footer">Email: erick.paredes@uabc.edu.mx</p>
+        <div>
+            <h2>My social media</h2>
+            <div id="footer_links">
+                <a href="#">Linkedin</a>
+                <a href="#">YouTube</a>
+                <a href="#">GitHub</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+                <a href="#">Mail</a>
+            </div>
         </div>
     </div>
+
 </footer>
 
 </html>

@@ -103,3 +103,22 @@ textarea {
     padding: 2px 0 2px 0;
   }
 }
+
+@media screen and (min-width: 280px) {
+  input[type=text] {
+    width: 235px;
+  }
+
+  input[type=email]{
+    width: 235px;
+  }
+
+  #message {
+    width: 235px;
+  }
+
+  #contact label {
+    color: #FFFFFF;
+    padding: 2px 0 2px 0;
+  }
+}

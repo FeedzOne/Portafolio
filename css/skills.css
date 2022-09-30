@@ -85,4 +85,45 @@ article.card-content{
     justify-content: space-evenly;
     justify-items: auto;
     align-items: flex-end;
+    width: 50vh;
+}
+
+@media screen and (max-width: 280px) {
+    #skills{
+        width: 100%;
+    }
+
+    #skills h2 {
+        font-size: 1.7rem;
+    }
+    
+    #skills p {
+        font-size: 1.2rem;
+    }
+
+    #knowledge{
+        width: 75px;
+        height: 75px;
+    }
+
+    .knowledge-cards__image img{
+        max-height: 45px;
+        max-width: 45px;
+    }
+
+    .knowledge-cards-footer{
+        padding-bottom: none;
+    }
+
+    .knowledge-cards-title span{
+        font-size: .8rem;
+    }
+
+    .knowledge-cards-title {
+        margin-top: -10px;
+    }
+
+    .card-container{
+        width: 90%;
+    }
 }

@@ -72,3 +72,17 @@ article.card:hover {
     justify-items: auto;
     align-items: flex-end;
 }
+
+@media screen and (min-width: 280px) {
+    #projects{
+        width: 95%;
+    }
+
+    .header-card img {
+        height: 150px;
+    }
+
+    .card-text{
+        font-size: 1rem;
+    }
+}
