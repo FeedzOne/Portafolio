@@ -28,7 +28,7 @@ ul.topnav li a:hover:not(.active) {
 }
 
 ul.topnav li a.active {
-    background-color: #04AA6D;
+    background-color: rgb(0, 140, 255);
 }
 
 ul.topnav li.right {
@@ -38,6 +38,9 @@ ul.topnav li.right {
 #myTopnav{
     position: relative;
     width: 100vw;
+    min-width: 100%;
+    padding: 0px;
+    overflow-x: hidden;
 }
 
 @media screen and (max-width: 600px) {

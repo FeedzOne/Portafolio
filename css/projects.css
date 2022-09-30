@@ -1,6 +1,5 @@
 #projects{
-    width:1600px;
-    height: 900px;
+    width: 70vw;
     padding-top: 3%;
     position: relative;
     text-align: center;
@@ -16,10 +15,26 @@
 }
 
 .carousel-item {
-    height: 900px;
     width: 1600px;
+    height: 900px;
 }
 
 .carousel-item:hover{
     opacity: 75%;
 }
+
+.-carousel-control-prev-icon{
+    background-color: #000;
+}
+
+@media screen and (max-width: 600px) {
+
+}
+@media screen and (max-width: 530px) {
+
+}
+
+@media screen and (max-width: 375px) {
+
+}
+
