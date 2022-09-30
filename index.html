@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="/css/about.css">
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/footer.css">
-    <link rel="stylesheet" href="/css/contact_us.css">
+    <link rel="stylesheet" href="/css/contact.css">
     <link rel="stylesheet" href="/css/projects.css">
     <link rel="stylesheet" href="/css/preview.css">
+    <link rel="stylesheet" href="/css/skills.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,8 +36,6 @@
             <li><a href="#">Resume</a></li>
         </ul>
     </div>
-
-
     <section id="about_me" class="container-fluid">
         <div class="about_text">
             <img id="profile_img"
@@ -60,6 +59,10 @@
             </nav>
 
         </div>
+    </section>
+    <section id="skills">
+        <h2>Front end Developer - UI Designer</h2>
+        <p>Here are some of my skills, but im constantly learning and updating my knowledge of the languajes i use the most</p>
     </section>
     <section id="preview" class="container-fluid">
         <!-- Carousel -->
@@ -91,51 +94,67 @@
                 <span class="carousel-control-next-icon"></span>
             </button>
         </div>
-
-
-
     </section>
     <section id="projects" class="container-fluid">
-        <div id="content_cards">
-            <div class="card">
-                <div class="card-header">
-                    <img class="img_card"
-                        src="https://cdn.pixabay.com/photo/2017/05/10/19/42/guitar-2301723_960_720.jpg">
-                </div>
-                <div class="card-body">
-                    <p class="p_card">I used to play guitar and bass since i was around 12 years old</p>
-                </div>
-                <div class="card-footer">
-                    <p class="p_card">Play Guitar and Bass</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header">
-                    <img class="img_card"
-                        src="https://cdn.pixabay.com/photo/2016/11/24/20/48/programming-1857236_960_720.jpg">
-                </div>
-                <div class="card-body">
-                    <p class="p_card">Started to code whan i joined to the university, started with pseint, then C, C++,
-                        Java, C# with ASP.NET, then in took a course of OOP with Java, then i learned some JavaScript,
-                        Python and some other stuff</p>
-                </div>
-                <div class="card-footer">
-                    <p class="p_card">Coding</p>
-                </div>
-            </div>
+        <h2>Here are some of my projects as well as some in which I have collaborated</h2>
+        <div class="cards-content">
+            <article class="card">
+                <header class="header-card">
+                    <img class="card-img" src="/img/4.png" alt="imagen1">
+                </header>
+                <footer class="card-footer">
+                    <div class="card-title">
+                        <span>Titulo</span>
+                    </div>
+                    <div class="card-text">
+                        <h3>Texto</h3>
+                        <p>Este es un párrafo de prueba para probar las tarjetas responsive</p>
+                    </div>
+                </footer>
+            </article>
+
+            <article class="card">
+                <header class="header-card">
+                    <img src="/img/5.jpg" alt="imagen1">
+                </header>
+                <footer class="card-footer">
+                    <div class="card-title">
+                        <span>Titulo</span>
+                    </div>
+                    <div class="card-text">
+                        <h3>Texto</h3>
+                        <p>Este es un párrafo de prueba para probar las tarjetas responsive</p>
+                    </div>
+                </footer>
+            </article>
+
+            <article class="card">
+                <header class="header-card">
+                    <img src="/img/6.jpg" alt="imagen1">
+                </header>
+                <footer class="card-footer">
+                    <div class="card-title">
+                        <span>Titulo</span>
+                    </div>
+                    <div class="card-text">
+                        <h3>Texto</h3>
+                        <p>Este es un párrafo de prueba para probar las tarjetas responsive</p>
+                    </div>
+                </footer>
+            </article>
         </div>
 
     </section>
-
-    <section id="contact_us" class="container">
-        <form action="/action_page.php">
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <div class="contact__form">
             <label for="fname">Name:</label><br>
             <input type="text" id="tbName" name="fname" value="Name"><br>
             <label for="lname">Email:</label><br>
             <input type="email" id="tbeEmail" name="lname" value="Email"><br>
             <label for="comment">Message:</label>
             <textarea class="form-control" rows="5" id="message" name="Message"></textarea>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary myButton">Submit</button>
         </form>
     </section>
 

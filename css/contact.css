@@ -1,0 +1,88 @@
+#contact {
+  width: 90vw;
+  padding-top: 3%;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  font-size: 1.7rem;
+  text-justify: distribute-all-lines;
+  padding-bottom: 2vh;
+}
+
+#contact h2 {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+#contact label {
+  color: #FFFFFF;
+  padding: 10px 0 10px 0;
+}
+
+input[type=text] {
+  border: none;
+  height: 5vh;
+  width: 50vw;
+  border-bottom: 2px solid rgb(0, 213, 255);
+}
+
+#message {
+  width: 50vw;
+  margin-bottom: 25px;
+}
+
+input[type=email] {
+  border: none;
+  height: 5vh;
+  width: 50vw;
+  border-bottom: 2px solid rgb(0, 213, 255);
+}
+
+input:focus {
+  border: none;
+}
+
+.contact__form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-primary{
+  background-color: #253348 !important;
+  border: none !important;
+}
+
+textarea {
+  border: none;
+  height: 10vh;
+  width: 50vw;
+  border-bottom: 2px solid rgb(0, 213, 255);
+}
+
+@media screen and (max-width: 768px) {
+  input[type=text] {
+    width: 325px;
+  }
+
+  input[type=email]{
+    width: 325px;
+  }
+
+  #message {
+    width: 325px;
+  }
+
+  #contact label {
+    color: #FFFFFF;
+    padding: 2px 0 2px 0;
+  }
+}
