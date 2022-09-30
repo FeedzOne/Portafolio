@@ -60,12 +60,6 @@ article.header-card {
     padding-bottom: 1rem;
 }
 
-.cards-content {
-    display: flex;
-    justify-content: space-evenly;
-    justify-items: auto;
-    align-items: flex-end;
-}
 
 article.card:hover {
     opacity: 50%;
@@ -74,4 +68,7 @@ article.card:hover {
 .cards-content {
     display: flex;
     flex-flow: wrap;
+    justify-content: space-evenly;
+    justify-items: auto;
+    align-items: flex-end;
 }
