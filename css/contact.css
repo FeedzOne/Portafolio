@@ -13,6 +13,8 @@
   font-size: 1.7rem;
   text-justify: distribute-all-lines;
   padding-bottom: 2vh;
+  background: #364863;
+  border-radius: 25px;
 }
 
 #contact h2 {
@@ -27,22 +29,31 @@
 
 input[type=text] {
   border: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  text-indent: 1%;
   height: 5vh;
   width: 50vw;
   border-bottom: 2px solid rgb(0, 213, 255);
-}
-
-#message {
-  width: 50vw;
-  margin-bottom: 25px;
 }
 
 input[type=email] {
   border: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  text-indent: 1%;
   height: 5vh;
   width: 50vw;
   border-bottom: 2px solid rgb(0, 213, 255);
 }
+#message {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  width: 50vw;
+  margin-bottom: 25px;
+}
+
+
 
 input:focus {
   border: none;
@@ -59,6 +70,12 @@ input:focus {
 .btn-primary{
   background-color: #253348 !important;
   border: none !important;
+  height: 5vh;
+  width: 25vh;
+}
+
+.btn-primary:hover{
+  background-color: #172232 !important;
 }
 
 textarea {
