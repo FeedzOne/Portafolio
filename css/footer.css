@@ -32,6 +32,7 @@
 
 #footer_links a{
     display: inline-block;
+    text-justify: distribute-all-lines;
     color: #FFFFFF;
     text-align: center;
     padding: 14px 16px;
@@ -55,6 +56,7 @@ p.text-footer{
 }
 
 a{
+    display: block;
     color: #FFFFFF;
     font-size: 1.5rem;
     text-align: center;
@@ -62,8 +64,16 @@ a{
     font-family: 'Roboto', sans-serif;
 }
 
-@media screen and (min-width: 280px) {
-    #pagefooter{
+@media screen and (min-width: 1024px) {
+    #footer_links a{
+        display:flexbox;
+        width: calc(50vw/6);
+        flex-direction:column;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 280px) {
+    #page-footer{
         width: 90vh;
     }
 
@@ -76,5 +86,4 @@ a{
         align-content: center;
         padding: 0;
     }
-
 }

@@ -10,12 +10,18 @@
     bottom: 0;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    font-size: 1.7rem;
     text-justify: distribute-all-lines;
 }
 
+.preview__text h2{
+    font-size: 3rem;
+    color: #FFFFFF;
+    padding-bottom: 2vh;
+}
+
 .carousel-item {
-    width: 100%;
+    width: 80vw;
+    height: 45vw;
 }
 
 .carousel-item:hover{

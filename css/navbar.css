@@ -17,6 +17,8 @@
 
 .header__link{
     width: 200px;
+    margin: 0;
+    padding: 0;
     display: inline-block;
 }
 
@@ -51,43 +53,85 @@ ul.header__container li a:hover:not(.active) {
 }
 
 ul.header__container li a.active {
-    background-color: rgb(0, 140, 255);
+    background-color: #2c394e;
 }
 
 ul.header__container li.right {
     float: right;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
     ul.navbar_header li a {
-        display: flexbox;
+        display: inline-block;
+        width: calc(50vw/6);
         flex-direction:column;
+        text-justify: distribute-all-lines;
         justify-content: space-between;
         border: none;
     }
     ul.header__container li a {
-        width: 90%;
+        width: 100%;
     }
 
     a{
-        width: 90%;
+        width: 100%;
     }
     
     li.header__link a{
-        width: 90%;
+        width: 100%;
     }
 
     ul.navbar_header li {
         width: 100vh;
     }
     li{
-        width: 200px;
+        width: calc(100vw/4);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    li{
+        width: calc(100vw/4);
+        padding-left: 4%;
+    }
+
+    ul.header__container li a{
+        font-size: 1.5rem;
+        height: 55px;
+        padding-top: 6px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    li{
+        width: calc(100vw/3);
+        padding-left: 4%;
+    }
+
+    ul.header__container li a{
+        font-size: 1.3rem;
+        height: 55px;
+        padding-top: 6px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    li{
+        width: calc(100vw/3);
+        padding-left: 4%;
+    }
+
+    ul.header__container li a{
+        font-size: 1rem;
+        height: 55px;
+        padding-top: 6px;
     }
 }
 
 @media screen and (max-width: 280px) {
     li{
         width: 290px;
+        padding-left: 0;
     }
 
     ul.header__container li a{

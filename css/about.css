@@ -16,6 +16,9 @@
   background-color: rgb(1, 27, 46);
 }
 
+p{
+  text-align: left;
+}
 .about_text{
   padding: 0;
   margin-left: auto;
