@@ -11,6 +11,7 @@
     overflow-x: hidden;
     text-align: center;
     border: none;
+    margin-top: 50px;
 }
 
 
@@ -38,7 +39,7 @@
     padding: 14px 16px;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 2vw;
     text-justify: distribute-all-lines;
     padding-bottom: 2vh;
 }
@@ -63,7 +64,10 @@ a{
     padding: 14px 16px;
     font-family: 'Roboto', sans-serif;
 }
-
+.footer_links a{
+    width: calc(90vw/6);
+}
+/*
 @media screen and (min-width: 1024px) {
     #footer_links a{
         display:flexbox;
@@ -86,4 +90,4 @@ a{
         align-content: center;
         padding: 0;
     }
-}
+}*/

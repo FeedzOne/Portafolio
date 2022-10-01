@@ -45,6 +45,7 @@ ul.header__container li a {
     text-decoration: none;
     font-size: 1.7rem;
     text-justify: distribute-all-lines;
+    width: 200px;
     color: #FFFFFF;
 }
 
@@ -102,27 +103,14 @@ ul.header__container li.right {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 512px) {
     li{
         width: calc(100vw/3);
         padding-left: 4%;
     }
 
     ul.header__container li a{
-        font-size: 1.3rem;
-        height: 55px;
-        padding-top: 6px;
-    }
-}
-
-@media screen and (max-width: 475px) {
-    li{
-        width: calc(100vw/3);
-        padding-left: 4%;
-    }
-
-    ul.header__container li a{
-        font-size: 1rem;
+        font-size: 1.1rem;
         height: 55px;
         padding-top: 6px;
     }

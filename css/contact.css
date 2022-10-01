@@ -33,7 +33,7 @@ input[type=text] {
   font-size: 1.5rem;
   text-indent: 1%;
   height: 5vh;
-  width: 50vw;
+  width: 80vw;
   border-bottom: 2px solid rgb(0, 213, 255);
 }
 
@@ -43,20 +43,19 @@ input[type=email] {
   font-size: 1.5rem;
   text-indent: 1%;
   height: 5vh;
-  width: 50vw;
+  width: 80vw;
   border-bottom: 2px solid rgb(0, 213, 255);
 }
 #message {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
-  width: 50vw;
+  width: 80vw;
   margin-bottom: 25px;
 }
 
-
-
 input:focus {
   border: none;
+  outline: none;
 }
 
 .contact__form {
@@ -80,22 +79,22 @@ input:focus {
 
 textarea {
   border: none;
-  height: 10vh;
+  height: 5vw;
   width: 50vw;
   border-bottom: 2px solid rgb(0, 213, 255);
 }
 
 @media screen and (max-width: 768px) {
   input[type=text] {
-    width: 325px;
+    width: 80vw;
   }
 
   input[type=email]{
-    width: 325px;
+    width: 80vw;
   }
 
   #message {
-    width: 325px;
+    width: 80vw;
   }
 
   #contact label {
@@ -106,15 +105,15 @@ textarea {
 
 @media screen and (min-width: 280px) {
   input[type=text] {
-    width: 235px;
+    width: 80vw;
   }
 
   input[type=email]{
-    width: 235px;
+    width: 80vw;
   }
 
   #message {
-    width: 235px;
+    width: 80vw;
   }
 
   #contact label {
