@@ -14,6 +14,7 @@
     right: 0;
     top: 0;
     bottom: 0;
+    align-items: center;
 }
 
 #skills h2 {
@@ -26,6 +27,7 @@
     font-size: 2rem;
     padding: 1rem;
     margin: 0;
+    text-align: center;
 }
 
 .card-content__image knowledge-card__image{
@@ -61,9 +63,10 @@
 .knowledge-cards-title span {
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
+    font-size: .95rem;
     border-radius: 5px;
 }
+
 
 .knowledge-cards footer {
     padding-bottom: 1rem;
@@ -81,7 +84,7 @@ article.card-content{
     box-shadow: 0 0 12px #D7D7D7;
 }
 
-.card-container {
+.card-container, .card-container__learning {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -111,6 +114,7 @@ article.card-content{
     }
 
     .knowledge-cards__image img{
+        margin-top: 15%;
         max-height: 45px;
         max-width: 45px;
     }
@@ -120,7 +124,7 @@ article.card-content{
     }
 
     .knowledge-cards-title span{
-        font-size: .8rem;
+        display: none;
     }
 
     .knowledge-cards-title {
