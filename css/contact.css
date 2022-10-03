@@ -1,9 +1,10 @@
 #contact {
-  width: 90vw;
-  padding-top: 3%;
+  width: 80vw;
+  padding-top: 1%;
   position: relative;
   text-align: center;
   margin: auto;
+  margin-top: 3%;
   left: 0;
   right: 0;
   top: 0;
@@ -20,6 +21,7 @@
 #contact h2 {
   color: #FFFFFF;
   text-align: center;
+  padding-bottom: 2%
 }
 
 #contact label {
@@ -33,7 +35,7 @@ input[type=text] {
   font-size: 1.5rem;
   text-indent: 1%;
   height: 5vh;
-  width: 80vw;
+  width: 50vw !important;
   border-bottom: 2px solid rgb(0, 213, 255);
 }
 
@@ -43,13 +45,21 @@ input[type=email] {
   font-size: 1.5rem;
   text-indent: 1%;
   height: 5vh;
-  width: 80vw;
+  width: 50vw !important;
   border-bottom: 2px solid rgb(0, 213, 255);
 }
+
+textarea {
+  border: none;
+  height: 5vw;
+  width: 50vw !important;
+  border-bottom: 2px solid rgb(0, 213, 255);
+}
+
 #message {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
-  width: 80vw;
+  width: 50vw !important;
   margin-bottom: 25px;
 }
 
@@ -66,35 +76,45 @@ input:focus {
   align-items: center;
 }
 
-.btn-primary{
+.btn-primary {
   background-color: #253348 !important;
   border: none !important;
-  height: 5vh;
-  width: 25vh;
+  height: 5vw;
+  min-height: 40px;
+  width: 25vw;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
   background-color: #172232 !important;
 }
 
-textarea {
-  border: none;
-  height: 5vw;
-  width: 50vw;
-  border-bottom: 2px solid rgb(0, 213, 255);
-}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   input[type=text] {
-    width: 80vw;
+    width: 70vw !important;
   }
 
-  input[type=email]{
-    width: 80vw;
+  input[type=email] {
+    width: 70vw !important;
   }
 
   #message {
-    width: 80vw;
+    width: 70vw !important;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  input[type=text] {
+    width: 75vw !important;
+  }
+
+  input[type=email] {
+    width: 75vw !important;
+  }
+
+  #message {
+    width: 75vw !important;
   }
 
   #contact label {
@@ -105,15 +125,15 @@ textarea {
 
 @media screen and (min-width: 280px) {
   input[type=text] {
-    width: 80vw;
+    width: 75vw !important;
   }
 
-  input[type=email]{
-    width: 80vw;
+  input[type=email] {
+    width: 75vw !important;
   }
 
   #message {
-    width: 80vw;
+    width: 75vw !important;
   }
 
   #contact label {

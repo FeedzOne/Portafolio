@@ -79,15 +79,22 @@
 .carousel-indicators{
     display: none !important;
 }
+@media screen and (min-width: 768px){
+    #preview{
+        margin-bottom: -18vw;
+    }
+}
+
+@media screen and (max-width: 512px){
+    .carrousel-indicators{
+        display: none !important;
+    }
+}
 
 @media screen and (max-width: 768px){
     .carrousel-item__description{
         width: 90vw;
         top: 105%;
-    }
-
-    .carousel-indicators{
-        display: block !important;
     }
 
     .carrousel-item__description span {
